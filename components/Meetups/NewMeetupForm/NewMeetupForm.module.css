@@ -1,0 +1,51 @@
+/* Container */
+.container {
+  padding: var(--spacing3);
+}
+
+/* Control */
+.control {
+  margin-bottom: var(--spacing);
+}
+
+/* Label */
+.label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: var(--spacing);
+}
+
+/* Input & Textarea */
+.input,
+.textarea {
+  display: block;
+  width: 100%;
+  font: inherit;
+  border-radius: 4px;
+  border: 1px solid var(--chinese-silver);
+  padding: 0.25rem;
+}
+
+/* Button Container */
+.buttonContainer {
+  text-align: right;
+  margin-top: var(--spacing2);
+}
+
+/* Button */
+.button {
+  font: inherit;
+  font-weight: bold;
+  padding: var(--spacing) var(--spacing3);
+  border: 1px solid var(--burgundy);
+  border-radius: 4px;
+  background-color: var(--burgundy);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  border-color: var(--french-wine);
+  background-color: var(--french-wine);
+}

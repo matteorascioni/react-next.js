@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 5rem;
+  padding: 0 10%;
+  background-color: var(--burgundy);
+}
+
+/* Logo */
+.logo {
+  font-size: 2rem;
+  color: var(--white);
+  font-weight: bold;
+}
+
+/* List */
+.list {
+  display: flex;
+  align-items: baseline;
+  list-style: none;
+}
+
+/* ListItem */
+.listItem {
+  margin-left: var(--spacing6);
+}
+
+/* Link */
+.listItem a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--little-girl-pink);
+}
+
+.listItem a:hover,
+.listItem a:active,
+.listItem a.active {
+  color: var(--white);
+}
